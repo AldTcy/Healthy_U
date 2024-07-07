@@ -1,0 +1,165 @@
+body {
+    background-image: url('side.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 50vh
+    
+}
+
+
+
+/* NAV BARS */
+.headnav a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.6em;
+ }
+ 
+.headnav{   
+    text-align: center;
+    background-color: goldenrod;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    position: fixed;
+    flex-wrap: wrap;
+    margin-top: 0;
+    width: 100%;
+ }
+
+button {
+    border: none;
+    background: none;
+    color: white;
+    padding: 5px 10px;
+    transition: .15s;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1em;
+}
+
+
+
+button:active {
+    opacity: .5;
+    scale: 1;
+}
+
+     
+#home-container {
+    min-width: 850px;
+    height: 100px;
+    background: transparent;
+    position: relative;
+    top:70px;
+    display: flex;
+    justify-content: first baseline;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;      
+   }
+   
+   
+   .home-content {
+     display: fixed;
+     text-align: center; 
+     justify-content: center;
+     width: 100%;
+     margin-top: 8px;
+   }
+  
+   .home-items h1 {
+    font-size: 50px;
+    color: blue;
+    font-family: "Cursive";
+    font-style: bold;
+    text-align: center;
+    margin-top: 1px;
+   }
+   
+   .home-items h2 {
+     font-size: 30px;
+     color: goldenrod;
+     font-family: "Arial";
+     font-style: italic;
+     font-style: bold;
+     text-align: center;
+     margin-top: -32px;
+    }
+ 
+#home-container2 {
+     width: 600px;
+     height: 400px;
+     background:rgba(0,0,0, .12);
+     position: absolute;
+     justify-content: flex-start;
+     top:450px;
+     left: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     font-size: 22px;
+     color:whitesmoke;
+     text-shadow: 3px 3px 6px black;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: justify;
+     font-weight: bold;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+ 
+ 
+.home-content2 {
+     display: flex;
+     align-items: flex-start; 
+     justify-content: center;
+     width: 100%;
+ 
+}
+
+.buttonnav a {
+    text-decoration: none;
+    color: green;
+    font-size: .8em;
+    font-family: cursive;
+    font-style: italic;
+    justify-content: center;
+ }
+ 
+ .buttonnav{
+    text-align: center;
+    background-color: goldenrod;
+    padding: 2px 5px;
+    position: flex;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    width:200px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+ }
+
+ .footnav {
+    padding: 2vh;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 1.1em;
+    position: flex;
+    margin-top: 1550px;
+    margin-left: -10px;
+    height: 150px;
+    min-width: 1000px;
+  }
+  
+  .footnav img {
+    width: 50px;
+    padding: 0 1vw;
+  }
+
